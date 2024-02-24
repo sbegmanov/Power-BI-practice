@@ -1,0 +1,39 @@
+{
+  "FileFormatVersion": 1,
+  "StorageEngineDuration": 0,
+  "StorageEngineDurationPercentage": 0.0,
+  "FormulaEngineDuration": 61,
+  "FormulaEngineDurationPercentage": 0.0,
+  "StoreageEngineEvents": [
+    {
+      "Class": "VertiPaqSEQueryCacheMatch",
+      "Subclass": "VertiPaqCacheExactMatch",
+      "Query": "SET DC_KIND=\"AUTO\";\r\nSELECT\r\n'DimCustomer'[RowNumber], 'DimCustomer'[CustomerKey], 'DimCustomer'[GeographyKey], 'DimCustomer'[CustomerAlternateKey], 'DimCustomer'[Title], 'DimCustomer'[FirstName], 'DimCustomer'[MiddleName], 'DimCustomer'[LastName], 'DimCustomer'[NameStyle], 'DimCustomer'[BirthDate], 'DimCustomer'[MaritalStatus], 'DimCustomer'[Suffix], 'DimCustomer'[Gender], 'DimCustomer'[EmailAddress], 'DimCustomer'[YearlyIncome], 'DimCustomer'[TotalChildren], 'DimCustomer'[NumberChildrenAtHome], 'DimCustomer'[EnglishEducation], 'DimCustomer'[SpanishEducation], 'DimCustomer'[FrenchEducation], 'DimCustomer'[EnglishOccupation], 'DimCustomer'[SpanishOccupation], 'DimCustomer'[FrenchOccupation], 'DimCustomer'[HouseOwnerFlag], 'DimCustomer'[NumberCarsOwned], 'DimCustomer'[AddressLine1], 'DimCustomer'[AddressLine2], 'DimCustomer'[Phone], 'DimCustomer'[DateFirstPurchase], 'DimCustomer'[CommuteDistance], 'DimCustomer'[FullName]\r\nFROM 'DimCustomer';\r\n",
+      "Duration": null,
+      "CpuTime": null,
+      "RowNumber": 1,
+      "EstimatedRows": null,
+      "EstimatedKBytes": null,
+      "HighlightQuery": false,
+      "QueryRichText": "SET DC_KIND=\"AUTO\";\r\nSELECT\r\n'DimCustomer'[RowNumber], 'DimCustomer'[CustomerKey], 'DimCustomer'[GeographyKey], 'DimCustomer'[CustomerAlternateKey], 'DimCustomer'[Title], 'DimCustomer'[FirstName], 'DimCustomer'[MiddleName], 'DimCustomer'[LastName], 'DimCustomer'[NameStyle], 'DimCustomer'[BirthDate], 'DimCustomer'[MaritalStatus], 'DimCustomer'[Suffix], 'DimCustomer'[Gender], 'DimCustomer'[EmailAddress], 'DimCustomer'[YearlyIncome], 'DimCustomer'[TotalChildren], 'DimCustomer'[NumberChildrenAtHome], 'DimCustomer'[EnglishEducation], 'DimCustomer'[SpanishEducation], 'DimCustomer'[FrenchEducation], 'DimCustomer'[EnglishOccupation], 'DimCustomer'[SpanishOccupation], 'DimCustomer'[FrenchOccupation], 'DimCustomer'[HouseOwnerFlag], 'DimCustomer'[NumberCarsOwned], 'DimCustomer'[AddressLine1], 'DimCustomer'[AddressLine2], 'DimCustomer'[Phone], 'DimCustomer'[DateFirstPurchase], 'DimCustomer'[CommuteDistance], 'DimCustomer'[FullName]\r\nFROM 'DimCustomer';\r\n"
+    },
+    {
+      "Class": "VertiPaqSEQueryEnd",
+      "Subclass": "VertiPaqScan",
+      "Query": "SET DC_KIND=\"AUTO\";\r\nSELECT\r\n'DimCustomer'[RowNumber], 'DimCustomer'[CustomerKey], 'DimCustomer'[GeographyKey], 'DimCustomer'[CustomerAlternateKey], 'DimCustomer'[Title], 'DimCustomer'[FirstName], 'DimCustomer'[MiddleName], 'DimCustomer'[LastName], 'DimCustomer'[NameStyle], 'DimCustomer'[BirthDate], 'DimCustomer'[MaritalStatus], 'DimCustomer'[Suffix], 'DimCustomer'[Gender], 'DimCustomer'[EmailAddress], 'DimCustomer'[YearlyIncome], 'DimCustomer'[TotalChildren], 'DimCustomer'[NumberChildrenAtHome], 'DimCustomer'[EnglishEducation], 'DimCustomer'[SpanishEducation], 'DimCustomer'[FrenchEducation], 'DimCustomer'[EnglishOccupation], 'DimCustomer'[SpanishOccupation], 'DimCustomer'[FrenchOccupation], 'DimCustomer'[HouseOwnerFlag], 'DimCustomer'[NumberCarsOwned], 'DimCustomer'[AddressLine1], 'DimCustomer'[AddressLine2], 'DimCustomer'[Phone], 'DimCustomer'[DateFirstPurchase], 'DimCustomer'[CommuteDistance], 'DimCustomer'[FullName]\r\nFROM 'DimCustomer';\r\n\r\n\r\n'Estimated size ( volume, marshalling bytes ) : 18484, 2292016'\r\n",
+      "Duration": 0,
+      "CpuTime": 16,
+      "RowNumber": 2,
+      "EstimatedRows": 18484,
+      "EstimatedKBytes": 2239,
+      "HighlightQuery": false,
+      "QueryRichText": "SET DC_KIND=\"AUTO\";\r\nSELECT\r\n'DimCustomer'[RowNumber], 'DimCustomer'[CustomerKey], 'DimCustomer'[GeographyKey], 'DimCustomer'[CustomerAlternateKey], 'DimCustomer'[Title], 'DimCustomer'[FirstName], 'DimCustomer'[MiddleName], 'DimCustomer'[LastName], 'DimCustomer'[NameStyle], 'DimCustomer'[BirthDate], 'DimCustomer'[MaritalStatus], 'DimCustomer'[Suffix], 'DimCustomer'[Gender], 'DimCustomer'[EmailAddress], 'DimCustomer'[YearlyIncome], 'DimCustomer'[TotalChildren], 'DimCustomer'[NumberChildrenAtHome], 'DimCustomer'[EnglishEducation], 'DimCustomer'[SpanishEducation], 'DimCustomer'[FrenchEducation], 'DimCustomer'[EnglishOccupation], 'DimCustomer'[SpanishOccupation], 'DimCustomer'[FrenchOccupation], 'DimCustomer'[HouseOwnerFlag], 'DimCustomer'[NumberCarsOwned], 'DimCustomer'[AddressLine1], 'DimCustomer'[AddressLine2], 'DimCustomer'[Phone], 'DimCustomer'[DateFirstPurchase], 'DimCustomer'[CommuteDistance], 'DimCustomer'[FullName]\r\nFROM 'DimCustomer';\r\n\r\n\r\n'Estimated size ( volume, marshalling bytes ) : 18484, 2292016'\r\n"
+    }
+  ],
+  "StorageEngineCpu": 16,
+  "TotalDuration": 61,
+  "StorageEngineQueryCount": 1,
+  "VertipaqCacheMatches": 1,
+  "TotalCpuDuration": 47,
+  "QueryEndDateTime": "2021-10-13T14:23:23.493333+05:00"
+}
